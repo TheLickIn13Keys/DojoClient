@@ -41,7 +41,7 @@ public class Client {
         globalSettings = HTTPFunctions.downloadObjectGlobalSettings();
         CosmeticController.downloadUserCosmetics();
 
-        SessionChanger.getInstance().setUser("bardiaanvari@yahoo.com", "BardiaMC2006$");
+
 
     }
 
