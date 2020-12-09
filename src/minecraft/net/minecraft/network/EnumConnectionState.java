@@ -1,5 +1,7 @@
 package net.minecraft.network;
 
+import DojoClient.packets.client.CPacketComplexData;
+import DojoClient.packets.server.SPacketTest;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.common.collect.Maps;
@@ -222,6 +224,13 @@ public enum EnumConnectionState
             this.registerPacket(EnumPacketDirection.SERVERBOUND, C17PacketCustomPayload.class);
             this.registerPacket(EnumPacketDirection.SERVERBOUND, C18PacketSpectate.class);
             this.registerPacket(EnumPacketDirection.SERVERBOUND, C19PacketResourcePackStatus.class);
+
+            //From Server == ClientBound
+            //From Client == ServerBound
+
+            this.registerPacket(EnumPacketDirection.SERVERBOUND, CPacketComplexData.class);
+            this.registerPacket(EnumPacketDirection.CLIENTBOUND, SPacketTest.class);
+
         }
     },
     STATUS(1)
@@ -276,8 +285,22 @@ public enum EnumConnectionState
         }
         else
         {
-            bimap.put(Integer.valueOf(bimap.size()), packetClass);
-            return this;
+
+            if(packetClass.getName().contains("DojoClient")){
+
+                System.out.println("Put packet: " + (bimap.size() + 100) + " " + packetClass.getName());
+                bimap.put(Integer.valueOf(bimap.size() + 100), packetClass);
+                return this;
+
+            }else {
+
+                System.out.println("Put packet: " + bimap.size() + " " + packetClass.getName());
+                bimap.put(Integer.valueOf(bimap.size()), packetClass);
+                return this;
+
+            }
+
+
         }
     }
 

@@ -17,4 +17,9 @@ public abstract class CPacket extends DojoPacket {
     public void processPacket(INetHandlerPlayClient handler) {
 
     }
+
+    public void writeString(PacketBuffer buf, String toWrite){
+        buf.writeInt(toWrite.length());
+        buf.writeString(toWrite);
+    }
 }

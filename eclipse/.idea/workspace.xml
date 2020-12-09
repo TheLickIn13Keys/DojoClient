@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68830fb5-0b63-49ae-b17f-3dea9e088aaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/bin/DojoClient/packets/DojoPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/bin/DojoClient/packets/client/CPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/bin/DojoClient/packets/server/SPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/bin/DojoClient/packets/server/SPacketTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/14/14d56d41037966c87d632534aa7105ffd4f5f0b80a186c1884fa68e94fa09b95" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/1a/1a1b115ba4024f620535953621cf2d71f0b32bfcd1fdc8e7dfe8b95c8e8a4a9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/b2/b2cf63cc79cd5566ee6c91df12c2898595e6a8c6b73f02dd49d54379c350a4a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/c7/c7ddea6f9f070107c2885176d54e1a638ea6d3037a0b68f1d14cad222321675a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/cc/ccd4078dbce8d41c91492a84f69cb2aea8de37a8e6f937da147eb0d4dc527c85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/d5/d54ce98f6f53cc195bd6e321e57ea224bde4a519bc86cdbebaabe2e63900295a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jars/assets/skins/fd/fdf3868e0f2096b3315c92a4eac84e0083daeb90dc40b2a85f288d324ac3d3e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/gui/GuiMultiplayerInGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/client/CPacketComplexData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/DojoClient/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/DojoClient/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/DojoClient/gui/hud/GuiHWIDBanned.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/DojoClient/gui/hud/GuiWhitelisted$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/DojoClient/gui/hud/GuiWhitelisted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/DojoClient/mods/impl/ModPerspective.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/DojoClient/mods/impl/ModPerspective.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/client/gui/GuiIngameMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/client/gui/GuiIngameMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/client/gui/GuiMultiplayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/client/gui/GuiMultiplayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/net/minecraft/network/EnumConnectionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/DojoClient/Mods/ModPlayer/pos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/DojoClient/Mods/ModPlayer/pos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/2020-12-07-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/2020-12-07-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/optionsof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/optionsof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/data/Mineshaft.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/data/Mineshaft.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/data/villages_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/data/villages_nether.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/playerdata/585e9787-3924-44e1-8185-7a7296e6a394.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/playerdata/585e9787-3924-44e1-8185-7a7296e6a394.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/saves/New World/stats/585e9787-3924-44e1-8185-7a7296e6a394.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/saves/New World/stats/585e9787-3924-44e1-8185-7a7296e6a394.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/servers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jars/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jars/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/gui/hud/GuiHWIDBanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/gui/GuiHWIDBanned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/gui/hud/GuiWhitelisted.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/gui/GuiWhitelisted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/client/CPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/client/CPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/server/SPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/server/SPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/server/SPacketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/DojoClient/packets/server/SPacketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/net/minecraft/client/gui/GuiIngameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/net/minecraft/client/gui/GuiIngameMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/net/minecraft/client/gui/GuiMultiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/net/minecraft/client/gui/GuiMultiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/minecraft/net/minecraft/network/EnumConnectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/minecraft/net/minecraft/network/EnumConnectionState.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lOp9sLj5uin0AiA87vnKSyVeDN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DojoClientServerSideIntegration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bardi\OneDrive\Desktop\Dojo_Client\eclipse\DojoClientServerSideIntegration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="eclipse build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68830fb5-0b63-49ae-b17f-3dea9e088aaf" name="Default Changelist" comment="" />
+      <created>1607477845698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607477845698</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1061" y="463" key="FileChooserDialogImpl" timestamp="1607477900300">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1061" y="463" key="FileChooserDialogImpl/0.0.2560.1440/-1680.751.1680.1050@0.0.2560.1440" timestamp="1607477900300" />
+  </component>
+</project>

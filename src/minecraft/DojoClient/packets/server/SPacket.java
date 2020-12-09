@@ -11,4 +11,9 @@ public abstract class SPacket extends DojoPacket {
     public void writePacketData(PacketBuffer buf) throws IOException {
         //NOTE: READ ONLY
     }
+
+    public String readString(PacketBuffer buf){
+        int length = buf.readInt();
+        return buf.readStringFromBuffer(length);
+    }
 }

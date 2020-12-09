@@ -1,6 +1,7 @@
 package net.minecraft.client.gui;
 
 import DojoClient.ServerDataFeatured;
+import DojoClient.Shared.MultiplayerConstants;
 import com.google.common.base.Charsets;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import io.netty.buffer.ByteBuf;
@@ -84,6 +85,12 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry
         boolean flag = this.field_148301_e.version > 47;
         boolean flag1 = this.field_148301_e.version < 47;
         boolean flag2 = flag || flag1;
+
+        if(this.field_148301_e.version == MultiplayerConstants.PING_VERSION){
+            flag2 = false;
+            drawImg(x, y, true, ServerDataFeatured.CHECK);
+        }
+
         this.mc.fontRendererObj.drawString(this.field_148301_e.serverName, x + 32 + 3, y + 1, 16777215);
         List<String> list = this.mc.fontRendererObj.listFormattedStringToWidth(this.field_148301_e.serverMOTD, listWidth - 32 - 2);
 

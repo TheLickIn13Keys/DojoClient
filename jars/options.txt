@@ -10,13 +10,13 @@ bobView:false
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:true
 resourcePacks:["bloom","! bruhbruh.zip"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:minemenr
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -92,7 +92,7 @@ key_key.hotbar.9:3
 key_of.key.zoom:46
 key_Mod Positioning:54
 key_360 Perspective:19
-soundCategory_master:0.37417218
+soundCategory_master:0.5529801
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
