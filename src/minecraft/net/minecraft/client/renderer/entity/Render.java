@@ -2,6 +2,7 @@ package net.minecraft.client.renderer.entity;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
@@ -61,6 +62,9 @@ public abstract class Render<T extends Entity>
     public void doRender(T entity, double x, double y, double z, float entityYaw, float partialTicks)
     {
         this.renderName(entity, x, y, z);
+        //if(entity instanceof EntityPlayerSP) {
+            //this.renderLivingLabel(entity, Minecraft.getMinecraft().thePlayer.getDisplayName().getFormattedText(), x, y, z, 64);
+        //}
     }
 
     protected void renderName(T entity, double x, double y, double z)
@@ -104,6 +108,19 @@ public abstract class Render<T extends Entity>
     public void bindTexture(ResourceLocation location)
     {
         this.renderManager.renderEngine.bindTexture(location);
+    }
+
+    protected void renderNameTag(T entity, double x, double y, double z)
+    {
+        if(this.canRenderNameTag(entity))
+        {
+            this.renderLivingLabel(entity, entity.getDisplayName().getFormattedText(), x, y, z, 64);
+        }
+    }
+
+    protected boolean canRenderNameTag(T entity)
+    {
+        return entity.getAlwaysRenderNameTagForRender();
     }
 
     /**

@@ -3,11 +3,14 @@ package net.minecraft.client.gui;
 import java.io.IOException;
 
 import DojoClient.gui.GuiMultiplayerInGame;
+import DojoClient.mods.ModInstances;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.achievement.GuiAchievements;
 import net.minecraft.client.gui.achievement.GuiStats;
 import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.realms.RealmsBridge;
+import net.minecraft.util.ResourceLocation;
 
 public class GuiIngameMenu extends GuiScreen
 {
@@ -45,6 +48,15 @@ public class GuiIngameMenu extends GuiScreen
 
         this.buttonList.add(new GuiButton(5, this.width / 2 - 100, this.height / 4 + 48 + i, 98, 20, I18n.format("gui.achievements", new Object[0])));
         this.buttonList.add(new GuiButton(6, this.width / 2 + 2, this.height / 4 + 48 + i, 98, 20, I18n.format("gui.stats", new Object[0])));
+        try {
+            if(ModInstances.getModGuiBlur().isEnabled()){
+                Minecraft.getMinecraft().entityRenderer.loadShader(new ResourceLocation("shaders/post/blur.json"));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            ModInstances.getModGuiBlur().setEnabled(true);
+        }
+
     }
 
     /**
@@ -124,5 +136,11 @@ public class GuiIngameMenu extends GuiScreen
         this.drawDefaultBackground();
         this.drawCenteredString(this.fontRendererObj, I18n.format("menu.game", new Object[0]), this.width / 2, 40, 16777215);
         super.drawScreen(mouseX, mouseY, partialTicks);
+    }
+
+    @Override
+    public void onGuiClosed() {
+        Minecraft.getMinecraft().entityRenderer.loadEntityShader(null);
+        super.onGuiClosed();
     }
 }

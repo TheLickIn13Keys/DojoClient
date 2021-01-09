@@ -320,7 +320,7 @@ public class EntityRenderer implements IResourceManagerReloadListener
         }
     }
 
-    private void loadShader(ResourceLocation resourceLocationIn)
+    public void loadShader(ResourceLocation resourceLocationIn)
     {
         if (OpenGlHelper.isFramebufferEnabled())
         {
@@ -633,12 +633,13 @@ public class EntityRenderer implements IResourceManagerReloadListener
 
                 if (Config.zoomMode)
                 {
-                    f /= 4.0F;
+                    f /= getScrollAmount();
                 }
             }
             else if (Config.zoomMode)
             {
                 Config.zoomMode = false;
+                scrollTotal = 4;
                 this.mc.gameSettings.smoothCamera = false;
                 this.mouseFilterXAxis = new MouseFilter();
                 this.mouseFilterYAxis = new MouseFilter();
@@ -660,6 +661,33 @@ public class EntityRenderer implements IResourceManagerReloadListener
 
             return f;
         }
+    }
+
+    int scrollTotal = 4;
+    private int getScrollAmount() {
+
+            final int i = Mouse.getDWheel();
+
+            if (i != 0)
+            {
+                if (i > 1)
+                {
+                    scrollTotal++;
+                }
+
+                if (i < -1)
+                {
+                    scrollTotal--;
+                }
+                if (scrollTotal > 16) {
+                    scrollTotal = 16;
+                }
+                if (scrollTotal < 1) {
+                    scrollTotal = 1;
+                }
+            }
+
+        return scrollTotal;
     }
 
     private void hurtCameraEffect(float partialTicks)

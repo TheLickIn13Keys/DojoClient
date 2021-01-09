@@ -2,7 +2,7 @@ package DojoClient.http;
 
 public class HTTPEndpoints {
 
-    public static final String BASE = "http://192.168.1.17:8080/api/";
+    public static final String BASE = "http://192.168.0.11:8080/api/";
     public static final String MAP_UUID = BASE + "mapUUID/";
     public static final String IS_BANNED = BASE + "isBanned/";
     public static final String IS_WHITELISTED = BASE + "isWhitelisted/";

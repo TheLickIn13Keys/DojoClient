@@ -57,7 +57,10 @@ public class HUDManager {
 
     @EventTarget
     public void onRender(RenderEvent e){
-        if(mc.currentScreen == null || mc.currentScreen instanceof GuiContainer || mc.currentScreen instanceof GuiChat){
+        if(mc.currentScreen == null || mc.currentScreen instanceof GuiContainer){
+            if(mc.gameSettings.showDebugInfo) {
+                return;
+            }
             for(IRenderer renderer : registeredRenderers){
                 callRenderer(renderer);
             }

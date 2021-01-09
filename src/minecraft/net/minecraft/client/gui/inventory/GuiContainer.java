@@ -1,5 +1,6 @@
 package net.minecraft.client.gui.inventory;
 
+import DojoClient.mods.ModInstances;
 import com.google.common.collect.Sets;
 import java.io.IOException;
 import java.util.Set;
@@ -87,10 +88,21 @@ public abstract class GuiContainer extends GuiScreen
      */
     public void initGui()
     {
+
         super.initGui();
+
         this.mc.thePlayer.openContainer = this.inventorySlots;
         this.guiLeft = (this.width - this.xSize) / 2;
         this.guiTop = (this.height - this.ySize) / 2;
+        try {
+            if(ModInstances.getModGuiBlur().isEnabled()){
+                Minecraft.getMinecraft().entityRenderer.loadShader(new ResourceLocation("shaders/post/blur.json"));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            ModInstances.getModGuiBlur().setEnabled(true);
+        }
+
     }
 
     /**
@@ -99,6 +111,7 @@ public abstract class GuiContainer extends GuiScreen
     public void drawScreen(int mouseX, int mouseY, float partialTicks)
     {
         this.drawDefaultBackground();
+        //Minecraft.getMinecraft().entityRenderer.loadShader(new ResourceLocation("shaders/post/blur.json"));
         int i = this.guiLeft;
         int j = this.guiTop;
         this.drawGuiContainerBackgroundLayer(partialTicks, mouseX, mouseY);
@@ -740,6 +753,8 @@ public abstract class GuiContainer extends GuiScreen
         if (this.mc.thePlayer != null)
         {
             this.inventorySlots.onContainerClosed(this.mc.thePlayer);
+            Minecraft.getMinecraft().entityRenderer.loadEntityShader(null);
+            super.onGuiClosed();
         }
     }
 

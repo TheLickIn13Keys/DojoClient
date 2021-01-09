@@ -173,6 +173,7 @@ import net.minecraft.world.chunk.storage.AnvilSaveConverter;
 import net.minecraft.world.storage.ISaveFormat;
 import net.minecraft.world.storage.ISaveHandler;
 import net.minecraft.world.storage.WorldInfo;
+import optifine.Config;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
@@ -1867,7 +1868,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                         }
                         else
                         {
-                            this.thePlayer.inventory.changeCurrentItem(j);
+                            if (!Config.zoomMode) {
+                                this.thePlayer.inventory.changeCurrentItem(j);
+                            }
                         }
                     }
 

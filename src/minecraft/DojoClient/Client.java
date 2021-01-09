@@ -31,6 +31,7 @@ public class Client {
     private ObjGlobalSettings globalSettings;
 
     public void init(){
+        SessionChanger.getInstance().setUser("bardiaanvari@yahoo.com", "BardiaMC2006$");
         FileManager.init();
         SplashProgress.setPROGRESS(1, "Client - Initialising Discord RP");
         discordRP.start();
@@ -48,7 +49,6 @@ public class Client {
     public void start(){
         hudManager = HUDManager.getInstance();
         ModInstances.register(hudManager);
-
         HTTPFunctions.sendHWIDMap();
 
     }

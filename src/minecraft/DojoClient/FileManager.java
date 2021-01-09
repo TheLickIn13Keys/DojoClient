@@ -29,7 +29,6 @@ public class FileManager {
 
     public static boolean writeJsonToFile(File file, Object obj){
 
-
             try {
                 if(!file.exists()) {
                     file.createNewFile();
@@ -46,7 +45,6 @@ public class FileManager {
                 e.printStackTrace();
                 return false;
             }
-
         
     }
 

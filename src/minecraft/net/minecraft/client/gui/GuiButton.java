@@ -6,6 +6,8 @@ import net.minecraft.client.audio.SoundHandler;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 
+import java.awt.*;
+
 public class GuiButton extends Gui
 {
     protected static final ResourceLocation buttonTextures = new ResourceLocation("textures/gui/widgets.png");
@@ -75,8 +77,9 @@ public class GuiButton extends Gui
     /**
      * Draws this button to the screen.
      */
-    public void drawButton(Minecraft mc, int mouseX, int mouseY)
-    {
+
+    int fade;
+    public void drawButton(Minecraft mc, int mouseX, int mouseY) {
         if (this.visible)
         {
             FontRenderer fontrenderer = mc.fontRendererObj;
@@ -103,6 +106,7 @@ public class GuiButton extends Gui
 
             this.drawCenteredString(fontrenderer, this.displayString, this.xPosition + this.width / 2, this.yPosition + (this.height - 8) / 2, j);
         }
+
     }
 
     /**

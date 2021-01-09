@@ -25,6 +25,7 @@ public abstract class ModDraggable extends Mod implements IRenderer {
         savePositionToFile();
     }
 
+
     private File getFolder(){
         File folder = new File(FileManager.getModsDirectory(), this.getClass().getSimpleName());
         folder.mkdirs();
@@ -42,7 +43,7 @@ public abstract class ModDraggable extends Mod implements IRenderer {
         ScreenPosition loaded = FileManager.readFromJson(new File(getFolder(), "pos.json"), ScreenPosition.class);
 
         if(loaded == null){
-            loaded = ScreenPosition.fromRelativePosition(0.5, 0.5);
+            loaded = ScreenPosition.fromRelativePosition(10.5, 10.5);
             this.pos = loaded;
             savePositionToFile();
         }
